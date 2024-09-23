@@ -1,0 +1,75 @@
+﻿@page "/"
+
+@inject DialogService DialogService
+@inject NavigationManager Navigation
+@rendermode InteractiveServer
+
+<PageTitle>Home</PageTitle>
+
+<div class="rz-p-4">
+    <RadzenStack Orientation="Orientation.Vertical" AlignItems="AlignItems.Center" Gap="10px">
+
+        <RadzenHeading Size="H1" Text="Free open-source Ecore libraries for .NET" />
+        
+        <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" Gap="10px">
+            <a href="https://www.nuget.org/packages/EcoreNetto/" target="_blank">
+                <RadzenImage Path="https://img.shields.io/badge/nuget-v4.0.0-blue.svg"
+                             Alt="NuGet Stats" Style="max-width: 100%;" />
+            </a>
+            <a href="https://github.com/STARIONGROUP/EcoreNetto/actions/workflows/CodeQuality.yml" target="_blank">
+                <RadzenImage Path="https://github.com/STARIONGROUP/EcoreNetto/actions/workflows/CodeQuality.yml/badge.svg?branch=master"
+                             Alt="Build Status" Style="max-width: 100%;" />
+            </a>
+        </RadzenStack>
+
+        <RadzenStack Orientation="Orientation.Vertical" AlignItems="AlignItems.Stretch">
+            <RadzenCard Style="padding: 10px;">
+                <RadzenHeading Size="H4" Text=" Open Source" />
+                <p>ecorenetto is open-source software and is completely <a href="https://github.com/STARIONGROUP/EcoreNetto/blob/master/LICENSE" target="_blank">free for commercial use</a></p>
+            </RadzenCard>
+            
+            <RadzenCard Style="padding: 10px;">
+                <RadzenHeading Size="H4" Text=" Implements the Ecore meta model" />
+                <p>ecorenetto implements version 2.9.0</p>
+            </RadzenCard>
+
+            <RadzenCard Style="padding: 10px;">
+                <RadzenHeading Size="H4" Text="What does it do?" />
+                <ul>
+                    <li>Read Ecore models with the <a href="https://www.nuget.org/packages/ECoreNetto" target="_blank">EcoreNetto</a> library</li>
+                    <li>Benefit from extension methods using the <a href="https://www.nuget.org/packages/ECoreNetto.Extensions" target="_blank">EcoreNetto.Extensions</a> library</li>
+                    <li>Generate Code using the <a href="https://www.nuget.org/packages/ECoreNetto.HandleBars">ECoreNetto.HandleBars</a> library</li>
+                    <li>Create Excel, HTML and Mardkown reports using the <a href="https://www.nuget.org/packages/ECoreNetto.Reporting">ECoreNetto.Reporting</a> library</li>
+                    <li>Create Excel, HTML and Mardkown reports using the <a href="https://www.nuget.org/packages/ECoreNetto.Tools">ECoreNetto.Tools</a> commandline app </li>
+                </ul>
+            </RadzenCard>
+            
+        </RadzenStack>
+       
+    </RadzenStack>
+</div>
+
+
+@code {
+
+    async Task ShowInlineDialog()
+    {
+        var result = await DialogService.OpenAsync("Install with NuGet", ds =>
+
+            @<RadzenStack Gap="1.5rem">
+                <div style="display: flex; justify-content: center; margin-top: 20px;">
+                    <a href="https://www.nuget.org/packages/EcoreNetto/" target="_blank">
+                        <RadzenImage Path="images/nuget-logo.png" Style="max-width: 100%; height: auto;"/>
+                    </a>
+                </div>
+                <br/>
+                <RadzenTextBox Disabled="true" Style="width: 100%" Value="PM&gt; Install-Package EcoreNetto" />
+            </RadzenStack>
+            );
+    }
+
+    void NavigateTo(string url)
+    {
+        Navigation.NavigateTo(url, true);
+    }
+}

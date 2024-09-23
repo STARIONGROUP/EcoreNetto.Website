@@ -1,0 +1,76 @@
+﻿@inherits LayoutComponentBase
+
+<RadzenComponents @rendermode="InteractiveServer" />
+
+<RadzenLayout>
+    <RadzenHeader>
+        <RadzenStack Orientation="Orientation.Horizontal" Gap="10px" Reverse="false" JustifyContent="JustifyContent.Center" AlignItems="AlignItems.Center" Wrap="FlexWrap.Wrap">
+            
+            <div class="rz-p-4 rz-text-align-center">
+                <RadzenLink Icon="home" Path="/" Text="Home" Style="font-size: 16px;" />
+            </div>
+            
+            <div class="rz-p-4 rz-text-align-center">
+                <RadzenLink Icon="history" Path="changelog" class="responsive-link" Text="Change Log" Style="font-size: 16px;" />
+            </div>
+            
+            <div class="rz-p-4 rz-text-align-center">
+                <RadzenLink Icon="rocket_launch" Path="reports" Text="Generate Reports" Style="font-size: 16px;" />
+            </div>
+            
+            <div class="rz-p-4 rz-text-align-center">
+                <RadzenLink Icon="description" Path="https://github.com/STARIONGROUP/EcoreNetto/wiki" Target="_" Text="Documentation" Style="font-size: 16px;" />
+            </div>
+            
+            <div class="rz-p-4 rz-text-align-center">
+                <RadzenLink Icon="support_agent" Path="https://github.com/STARIONGROUP/EcoreNetto/issues" Target="_" Text="Support" Style="font-size: 16px;" />
+            </div>
+            
+            <div class="rz-p-4 rz-text-align-center">
+                <RadzenLink Icon="contact_mail" Path="https://www.stariongroup.eu/contact" Target="_" Text="Contact" Style="font-size: 16px;" />
+            </div>
+            
+            <div class="rz-p-4 rz-text-align-center">
+                <RadzenLink Icon="code" Path="https://github.com/STARIONGROUP/EcoreNetto" Target="_" Text="Code" Style="font-size: 16px;" />
+            </div>
+        </RadzenStack>
+    </RadzenHeader>
+
+    <RadzenBody Style="background-color: white;">
+        <div style="display: flex; justify-content: center; margin-top: 10px;">
+            <RadzenImage Path="images/Ecorenetto-Logo-text.png" Style="max-width: 100%; height: auto;" />
+        </div>
+        <div class="rz-p-4">
+            @Body
+        </div>
+    </RadzenBody>
+    <RadzenFooter Style="border: none; box-shadow: none;">
+        <RadzenStack Orientation="Orientation.Horizontal" Gap="60px" Reverse="false" JustifyContent="JustifyContent.Center" AlignItems="AlignItems.Start" Wrap="FlexWrap.Wrap" Style="border: none; box-shadow: none;">
+            <a href="https://www.stariongroup.eu" target="_blank">
+                <RadzenImage Path="images/starion-s-symbol-black-rgb.png" Style="height: 75px;" class="rz-p-1"  />
+            </a>
+            <RadzenStack Orientation="Orientation.Vertical" Gap="2px" JustifyContent="JustifyContent.Center" AlignItems="AlignItems.Normal">
+                <RadzenText Text="Products" Style="font-size: 24px; font-weight: bold;" />
+                <RadzenLink Text="ecorenetto" Path="/"  Style="color: #007bff; text-decoration: none;" />
+                <RadzenLink Text="ReqifSharp" Path="https://reqifsharp.org" Target="_" Style="color: #007bff; text-decoration: none;" />
+                <RadzenLink Text="SySML2.NET" Path="https://github.com/STARIONGROUP/SysML2.NET" Target="_" Style="color: #007bff; text-decoration: none;" />
+            </RadzenStack>
+                
+            <RadzenStack Orientation="Orientation.Vertical" Gap="2px" JustifyContent="JustifyContent.Center" AlignItems="AlignItems.Normal">
+                <RadzenText Text="Community" Style="font-size: 24px; font-weight: bold;" />
+                <RadzenLink Text="Projects on Github" Path="https://github.com/STARIONGROUP" Target="_" Style="color: #007bff; text-decoration: none;" />
+                <RadzenLink Text="Stack Overflow" Path="http://stackoverflow.com/tags/ecorenetto" Target="_" Style="color: #007bff; text-decoration: none;" />
+            </RadzenStack>
+                
+            <RadzenStack Orientation="Orientation.Vertical" Gap="2px" JustifyContent="JustifyContent.Center" AlignItems="AlignItems.Normal">
+                <RadzenText Text="Follow Us" Style="font-size: 24px; font-weight: bold;" />
+                <RadzenLink Text="Starion Group" Path="https://www.stariongroup.eu/" Target="_" Style="color: #007bff; text-decoration: none;" />
+                <RadzenLink Text="Twitter" Path="https://twitter.com/stariongroupeu/" Target="_" Style="color: #007bff; text-decoration: none;" />
+                <RadzenLink Text="Linked-In" Path="https://www.linkedin.com/company/stariongroup" Target="_" Style="color: #007bff; text-decoration: none;" />
+            </RadzenStack>
+
+            <RadzenImage Path="images/Ecorenetto-Icon.png" Style="height: 75px;" />
+        </RadzenStack>
+
+    </RadzenFooter>
+</RadzenLayout>
