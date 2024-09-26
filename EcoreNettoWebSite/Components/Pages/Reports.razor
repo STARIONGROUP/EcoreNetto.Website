@@ -1,7 +1,223 @@
 ﻿@page "/reports"
 
-<h3>Reports</h3>
+@inject ILogger<Reports> Logger;
+@inject NavigationManager Navigation;
+@inject ISelectedFileService selectedFileService;
+@inject IFileTrackingService fileTrackingService;
+
+@using System.Text.Json
+@using EcoreNettoWebsite.Model
+@using EcoreNettoWebsite.Services
+
+@rendermode InteractiveServer
+
+<RadzenStack Orientation="Orientation.Vertical" AlignItems="AlignItems.Center" Gap="10px">
+    
+    <RadzenHeading Size="H1" Text="Generate reports from your Ecore model" />
+    
+    <RadzenCard Variant="Variant.Outlined">
+        <RadzenText TextStyle="TextStyle.Subtitle2" TagName="TagName.H3">Upload an ECore model</RadzenText>
+        <RadzenUpload Url="upload"
+                      @ref="uploader"
+                      Complete=@CompleteUpload
+                      Progress=@(args => this.OnProgress(args, "ecore file upload")) 
+                      Style="width: 100%" 
+                      Multiple="false"
+                      Auto="false"
+                      Change="@OnFileSelectionChange"
+                      InputAttributes="@(new Dictionary<string,object>(){ { "aria-label", "select file" }})">
+        </RadzenUpload>
+        <RadzenButton Disabled="@uploadFileButtonIsDisabled" Text="Upload" Click="@(async () => await this.UploadSelectedFile())" />
+    </RadzenCard>
+    
+    <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Start" Gap="10px">
+        
+        <RadzenCard Style="padding: 10px;">
+            <RadzenHeading Size="H4" Text="Excel Report" />
+            <p>Generates an Excel Spreadsheet that contains:</p>
+            <ul>
+                <li>A tab that contains classes and there properties, including documentation </li>
+                <li>A tab that contains datatypes,  including documentation </li>
+                <li>A tab that contains Enumerations and Enumerations Literals, including documentation </li>
+            </ul>
+            <p>This report is very suitable for model analysis making sure that the documentation is complete</p>
+        </RadzenCard>
+        
+        <RadzenCard Style="padding: 10px;">
+            <RadzenHeading Size="H4" Text="HTML Report" />
+            <p>Generate an HTML report that contains </p>
+            <ul>
+                <li>A hyperlinked table of contents </li>
+                <li>All Enumerations and Enumeration Literals, including documentation </li>
+                <li>All Datatypes including documentation </li>
+                <li>All classes including information regarding generalizations, properties, including documentation </li>
+            </ul>
+            <p>This report is very suitable to distribute or host as a website as documentation for consumers of the Ecore model</p>
+            <RadzenButton Disabled="@generateHtmlButtonIsDisabled" Click="@this.GenerateHtmlReport">Generate</RadzenButton>
+        </RadzenCard>
+        
+        <RadzenCard Style="padding: 10px;">
+            <RadzenHeading Size="H4" Text="Mardkown Report" />
+            <p>Generate a Markdown report that contains </p>
+            <ul>
+                <li>All Enumerations and Enumeration Literals, including documentation </li>
+                <li>All Datatypes including documentation </li>
+                <li>All classes including information regarding generalizations, properties, including documentation </li>
+            </ul>
+            <p>This report is very suitable to include in wiki's that use Markdown syntax</p>
+            <RadzenButton Disabled="@generateMarkdownButtonIsDisabled" Click="@this.GenerateMarkdownReport">Generate</RadzenButton>
+        </RadzenCard>
+    </RadzenStack>
+    
+</RadzenStack>
 
 @code {
 
+    private RadzenUpload uploader;
+    private FileUpload fileUpload;
+
+    private bool uploadFileButtonIsDisabled = true;
+    private bool generateHtmlButtonIsDisabled = true;
+    private bool generateMarkdownButtonIsDisabled = true;
+
+    /// <summary>
+    /// initializes the component
+    /// </summary>
+    protected override void OnInitialized()
+    {
+        if (string.IsNullOrEmpty(this.selectedFileService.Key))
+        {
+            return;
+        }
+
+        this.fileUpload = this.fileTrackingService.GetFileUpload(this.selectedFileService.Key);
+        if (fileUpload != null)
+        {
+            this.uploader.Name = fileUpload.Name;
+            this.generateHtmlButtonIsDisabled = false;
+            this.generateMarkdownButtonIsDisabled = false;
+
+            this.StateHasChanged();
+        }
+    }
+
+    /// <summary>
+    /// completed uploaded callback
+    /// </summary>
+    void CompleteUpload(UploadCompleteEventArgs args)
+    {
+        if (!args.Cancelled)
+        {
+            var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
+
+            this.fileUpload = JsonSerializer.Deserialize<FileUpload>(args.JsonResponse, options);
+
+            this.generateHtmlButtonIsDisabled = false;
+            this.generateMarkdownButtonIsDisabled = false;
+        }
+        else
+        {
+            this.generateHtmlButtonIsDisabled = true;
+            this.generateMarkdownButtonIsDisabled = true;
+        }
+
+        this.StateHasChanged();
+    }
+
+    /// <summary>
+    /// upload the selected file
+    /// </summary>
+    private async Task UploadSelectedFile()
+    {
+        try
+        {
+            await uploader.Upload();
+            this.uploadFileButtonIsDisabled = false;
+
+            this.StateHasChanged();
+        }
+        catch (Exception ex)
+        {
+            this.Logger.LogError("upload failed", ex);
+        }
+    }
+
+    /// <summary>
+    /// progress callback method
+    /// </summary>
+    /// <param name="args">
+    /// upload event argument
+    /// </param>
+    /// <param name="name">
+    /// name of the file to be uploaded
+    /// ></param>
+    void OnProgress(UploadProgressArgs args, string name)
+    {
+        this.Logger.LogInformation("{progress} of file {name}: {loaded} of {total} bytes", args.Progress, name, args.Loaded, args.Total);
+
+        if (args.Progress == 100)
+        {
+            foreach (var file in args.Files)
+            {
+                this.Logger.LogInformation("file {name} with size {size} uploaded", file.Name, file.Size);
+            }
+        }
+    }
+
+    /// <summary>
+    /// on file selection change callback raised by the uploader when a file has been
+    /// selected or unselected
+    /// </summary>
+    /// <param name="args">
+    /// an instance of <see cref="UploadChangeEventArgs"/>
+    /// </param>
+    private void OnFileSelectionChange(UploadChangeEventArgs args)
+    {
+        if (args != null && args.Files.Any())
+        {
+            this.uploadFileButtonIsDisabled = false;
+        }
+        else
+        {
+            this.uploadFileButtonIsDisabled = true;
+        }
+
+        this.StateHasChanged();
+    }
+
+    /// <summary>
+    /// Generate an HTML report
+    /// </summary>
+    public void GenerateHtmlReport()
+    {
+        if (this.fileUpload == null)
+        {
+            return;
+        }
+
+        var uri = Navigation.GetUriWithQueryParameters("/htmlreport", new Dictionary<string, object>
+        {
+            { "modelId", this.fileUpload.Key }
+        });
+
+        Navigation.NavigateTo(uri);
+    }
+
+    /// <summary>
+    /// Generate a Markdown report
+    /// </summary>
+    public void GenerateMarkdownReport()
+    {
+        if (this.fileUpload == null)
+        {
+            return;
+        }
+
+        var uri = Navigation.GetUriWithQueryParameters("/markdownreport", new Dictionary<string, object>
+        {
+            { "modelId", this.fileUpload.Key }
+        });
+
+        Navigation.NavigateTo(uri);
+    }
 }

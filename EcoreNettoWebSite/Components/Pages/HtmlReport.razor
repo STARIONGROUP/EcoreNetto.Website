@@ -1,0 +1,50 @@
+﻿@page "/htmlreport"
+
+@inject ILogger<Reports> Logger
+@inject IFileTrackingService FileTrackingService
+@inject IHtmlReportGenerator HtmlReportGenerator;
+
+@using ECoreNetto.Reporting.Generators;
+@using EcoreNettoWebsite.Services
+
+@rendermode InteractiveServer
+
+@if (string.IsNullOrEmpty(ModelId))
+{
+    <p>Please select a model</p>
+}
+else
+{
+    <div>@((MarkupString)this.generatedReport)</div>
+}
+
+@code {
+    private string generatedReport;
+
+    private IDisposable registration;
+
+    [Parameter]
+    [SupplyParameterFromQuery(Name = "modelId")]
+    public string ModelId { get; set; }
+
+    /// <summary>
+    /// Method invoked when the component has received parameters from its parent in
+    /// the render tree, and the incoming values have been assigned to properties.
+    /// </summary>
+    /// <returns>A <see cref="Task"/> representing any asynchronous operation.</returns>
+    protected override Task OnParametersSetAsync()
+    {
+        var inputFile = this.FileTrackingService.GetFile(this.ModelId);
+
+        if (inputFile != null)
+        {
+            this.generatedReport = this.HtmlReportGenerator.GenerateReport(inputFile);            
+        }
+        else
+        {
+            this.Logger.LogDebug("the input file {ModelId} could not be found", this.ModelId);
+        }
+        
+        return Task.CompletedTask;
+    }
+}

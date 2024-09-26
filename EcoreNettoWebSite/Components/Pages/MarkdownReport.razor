@@ -1,0 +1,43 @@
+﻿@page "/markdownreport"
+
+@inject ILogger<Reports> Logger
+@inject IFileTrackingService FileTrackingService
+@inject IMarkdownReportGenerator MarkdownReportGenerator
+
+@using ECoreNetto.Reporting.Generators;
+@using EcoreNettoWebsite.Services
+
+@if (string.IsNullOrEmpty(ModelId))
+{
+    <p>Please select a model</p>
+}
+else
+{
+    <div>@((MarkupString)this.generatedReport)</div>
+}
+
+@code {
+    private string generatedReport;
+
+    [Parameter]
+    [SupplyParameterFromQuery(Name = "modelId")]
+    public string ModelId { get; set; }
+
+    protected override Task OnParametersSetAsync()
+    {
+        var inputFile = this.FileTrackingService.GetFile(this.ModelId);
+
+        if (inputFile != null)
+        {
+            this.generatedReport = this.MarkdownReportGenerator.GenerateReport(inputFile);
+        }
+        else
+        {
+            this.Logger.LogDebug("the input file {ModelId} could not be found", this.ModelId);
+        }
+        
+        this.StateHasChanged();
+
+        return Task.CompletedTask;
+    }
+}
