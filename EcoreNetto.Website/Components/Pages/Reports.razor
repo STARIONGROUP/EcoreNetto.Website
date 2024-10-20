@@ -2,8 +2,8 @@
 
 @inject ILogger<Reports> Logger;
 @inject NavigationManager Navigation;
-@inject ISelectedFileService selectedFileService;
-@inject IFileTrackingService fileTrackingService;
+@inject ISelectedFileService SelectedFileService;
+@inject IFileTrackingService FileTrackingService;
 
 @using System.Text.Json
 @using EcoreNetto.Website.Model
@@ -85,12 +85,12 @@
     /// </summary>
     protected override void OnInitialized()
     {
-        if (string.IsNullOrEmpty(this.selectedFileService.Key))
+        if (string.IsNullOrEmpty(this.SelectedFileService.Key))
         {
             return;
         }
 
-        this.fileUpload = this.fileTrackingService.GetFileUpload(this.selectedFileService.Key);
+        this.fileUpload = this.FileTrackingService.GetFileUpload(this.SelectedFileService.Key);
         if (fileUpload != null)
         {
             this.uploader.Name = fileUpload.Name;

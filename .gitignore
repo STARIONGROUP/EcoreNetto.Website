@@ -70,3 +70,5 @@ packages/
 *.testsettings
 .vs
 /EcoreNettoWebSite/logs/*
+
+/EcoreNetto.Website/logs/*
