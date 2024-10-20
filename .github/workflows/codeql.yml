@@ -40,10 +40,10 @@ jobs:
         languages: ${{ matrix.language }}
 
     - name: Install dependencies
-      run: dotnet restore EcoreNettoWebsite.sln
+      run: dotnet restore EcoreNetto.Website.sln
 
     - name: Build
-      run: dotnet build EcoreNettoWebsite.sln --no-restore
+      run: dotnet build EcoreNetto.Website.sln --no-restore
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v3

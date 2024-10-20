@@ -23,19 +23,19 @@ jobs:
         dotnet-version: 8.0.x
 
     - name: Restore dependencies
-      run: dotnet restore EcoreNettoWebsite.sln
+      run: dotnet restore EcoreNetto.Website.sln
 
     - name: Build
-      run: dotnet build EcoreNettoWebsite.sln --no-restore /p:ContinuousIntegrationBuild=true
+      run: dotnet build EcoreNetto.Website.sln --no-restore /p:ContinuousIntegrationBuild=true
 
     - name: Checking NuGet vulnerabilites
       run: |
         set -e
-        dotnet list EcoreNettoWebsite.sln package --outdated --include-transitive
+        dotnet list EcoreNetto.Website.sln package --outdated --include-transitive
 
-        dotnet list EcoreNettoWebsite.sln package --deprecated --include-transitive
+        dotnet list EcoreNetto.Website.sln package --deprecated --include-transitive
 
-        dotnet list EcoreNettoWebsite.sln package --vulnerable --include-transitive 2>&1 | tee vulnerabilities.log
+        dotnet list EcoreNetto.Website.sln package --vulnerable --include-transitive 2>&1 | tee vulnerabilities.log
 
         echo "Analyze dotnet list package command log output..."
         if grep -q -i "\bcritical\b\|\bhigh\b\|\bmoderate\b\|\blow\b" vulnerabilities.log; then
