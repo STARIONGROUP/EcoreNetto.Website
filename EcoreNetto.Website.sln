@@ -7,6 +7,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EcoreNetto.Website", "Ecore
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EcoreNetto.Website.Tests", "EcoreNetto.Website.Tests\EcoreNetto.Website.Tests.csproj", "{FDA14123-C0F8-4219-B415-3262624F4AE9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F1E54A93-ECF5-4E60-9BF4-A0409DFB85AF}"
+	ProjectSection(SolutionItems) = preProject
+		EcoreNetto.Website\Dockerfile = EcoreNetto.Website\Dockerfile
+		LICENSE = LICENSE
+		nginx = nginx
+		Nuget.Config = Nuget.Config
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
