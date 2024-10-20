@@ -17,10 +17,10 @@
 //  </copyright>
 //  --------------------------------------------------------------------------------------------------------------------
 
-namespace EcoreNettoWebsite.Services
+namespace EcoreNetto.Website.Services
 {
-    using EcoreNettoWebsite.Extensions;
-    using EcoreNettoWebsite.Model;
+    using EcoreNetto.Website.Extensions;
+    using EcoreNetto.Website.Model;
 
     using Microsoft.Extensions.Caching.Memory;
 

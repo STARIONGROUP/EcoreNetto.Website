@@ -17,14 +17,14 @@
 //  </copyright>
 //  --------------------------------------------------------------------------------------------------------------------
 
-namespace EcoreNettoWebsite.Tests.Services
+namespace EcoreNetto.Website.Tests.Services
 {
     using System;
     using System.IO;
     using System.Threading;
     using System.Threading.Tasks;
 
-    using EcoreNettoWebsite.Services;
+    using EcoreNetto.Website.Services;
 
     using Microsoft.AspNetCore.Http;
 

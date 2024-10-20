@@ -17,7 +17,7 @@
 //  </copyright>
 //  --------------------------------------------------------------------------------------------------------------------
 
-namespace EcoreNettoWebsite.Extensions
+namespace EcoreNetto.Website.Extensions
 {
     using System;
     

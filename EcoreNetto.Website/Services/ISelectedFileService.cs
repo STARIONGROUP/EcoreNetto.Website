@@ -17,7 +17,7 @@
 //  </copyright>
 //  --------------------------------------------------------------------------------------------------------------------
 
-namespace EcoreNettoWebsite.Services
+namespace EcoreNetto.Website.Services
 {
     /// <summary>
     /// The purpose of the <see cref="ISelectedFileService"/> is to keep track

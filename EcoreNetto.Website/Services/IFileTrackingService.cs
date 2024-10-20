@@ -17,9 +17,9 @@
 //  </copyright>
 //  --------------------------------------------------------------------------------------------------------------------
 
-namespace EcoreNettoWebsite.Services
+namespace EcoreNetto.Website.Services
 {
-    using EcoreNettoWebsite.Model;
+    using EcoreNetto.Website.Model;
 
     /// <summary>
     /// The purpose of the <see cref="IFileTrackingService"/> is to store files on disk, keep track of them and delete

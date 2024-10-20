@@ -1,0 +1,274 @@
+2024-09-29 10:35:58.670 +02:00 [INF] file with name ecore.ecore received
+2024-09-29 10:35:58.683 +02:00 [INF] file with name ecore.ecore stored with key Cgoo_rKHIUSd-bYTEBGvbA and accessible until "2024-09-29T10:50:58.6827281+02:00"
+2024-09-29 10:35:58.699 +02:00 [INF] 100 of file ecore file upload: 31884 of 31884 bytes
+2024-09-29 10:35:58.699 +02:00 [INF] file ecore.ecore with size 31649 uploaded
+2024-09-29 10:35:59.846 +02:00 [INF] Start Generating Html report tables
+2024-09-29 10:35:59.846 +02:00 [INF] Loading Ecore model from C:\Users\sgerene\AppData\Local\Temp\f4nwdfe5.u1i
+2024-09-29 10:35:59.847 +02:00 [INF] Creating resource for uri: "file:///C:/Users/sgerene/AppData/Local/Temp/f4nwdfe5.u1i"
+2024-09-29 10:35:59.869 +02:00 [INF] Package: 'ecore' with prefix ecore and uri http://www.eclipse.org/emf/2002/Ecore loaded in 16 [ms]
+2024-09-29 10:35:59.916 +02:00 [INF] Generated HTML report in 70 [ms]
+2024-09-29 10:44:09.791 +02:00 [INF] file with name ecore.ecore received
+2024-09-29 10:44:09.803 +02:00 [INF] file with name ecore.ecore stored with key rRNXgXgttkOpp6uaR0rRvw and accessible until "2024-09-29T10:59:09.8022735+02:00"
+2024-09-29 10:44:09.816 +02:00 [INF] 100 of file ecore file upload: 31884 of 31884 bytes
+2024-09-29 10:44:09.816 +02:00 [INF] file ecore.ecore with size 31649 uploaded
+2024-09-29 10:44:12.030 +02:00 [INF] Start Generating Html report tables
+2024-09-29 10:44:12.031 +02:00 [INF] Loading Ecore model from C:\Users\sgerene\AppData\Local\Temp\qkaoijyz.s4c
+2024-09-29 10:44:12.031 +02:00 [INF] Creating resource for uri: "file:///C:/Users/sgerene/AppData/Local/Temp/qkaoijyz.s4c"
+2024-09-29 10:44:12.051 +02:00 [INF] Package: 'ecore' with prefix ecore and uri http://www.eclipse.org/emf/2002/Ecore loaded in 13 [ms]
+2024-09-29 10:44:12.095 +02:00 [INF] Generated HTML report in 64 [ms]
+2024-09-29 10:44:55.090 +02:00 [INF] Start Generating Html report tables
+2024-09-29 10:44:55.090 +02:00 [INF] Loading Ecore model from C:\Users\sgerene\AppData\Local\Temp\qkaoijyz.s4c
+2024-09-29 10:44:55.090 +02:00 [INF] Creating resource for uri: "file:///C:/Users/sgerene/AppData/Local/Temp/qkaoijyz.s4c"
+2024-09-29 10:44:55.093 +02:00 [INF] Package: 'ecore' with prefix ecore and uri http://www.eclipse.org/emf/2002/Ecore loaded in 3 [ms]
+2024-09-29 10:44:55.097 +02:00 [INF] Generated HTML report in 7 [ms]
+2024-09-29 10:45:31.172 +02:00 [INF] file with name ecore.ecore received
+2024-09-29 10:45:31.174 +02:00 [INF] file with name ecore.ecore stored with key 62gahpcO80OwTq0BM2b6dw and accessible until "2024-09-29T11:00:31.1745810+02:00"
+2024-09-29 10:45:31.178 +02:00 [INF] 100 of file ecore file upload: 31884 of 31884 bytes
+2024-09-29 10:45:31.178 +02:00 [INF] file ecore.ecore with size 31649 uploaded
+2024-09-29 10:45:59.648 +02:00 [INF] Start Generating Html report tables
+2024-09-29 10:45:59.648 +02:00 [INF] Loading Ecore model from C:\Users\sgerene\AppData\Local\Temp\fet0axsz.tm3
+2024-09-29 10:45:59.648 +02:00 [INF] Creating resource for uri: "file:///C:/Users/sgerene/AppData/Local/Temp/fet0axsz.tm3"
+2024-09-29 10:45:59.705 +02:00 [INF] Package: 'ecore' with prefix ecore and uri http://www.eclipse.org/emf/2002/Ecore loaded in 56 [ms]
+2024-09-29 10:45:59.738 +02:00 [INF] Generated HTML report in 89 [ms]
+2024-09-29 10:46:33.457 +02:00 [INF] file with name ecore.ecore received
+2024-09-29 10:46:33.469 +02:00 [INF] file with name ecore.ecore stored with key AXTzSwwJj02FSoRg3lKQ3g and accessible until "2024-09-29T11:01:33.4681252+02:00"
+2024-09-29 10:46:33.480 +02:00 [INF] 100 of file ecore file upload: 31884 of 31884 bytes
+2024-09-29 10:46:33.481 +02:00 [INF] file ecore.ecore with size 31649 uploaded
+2024-09-29 10:46:39.479 +02:00 [INF] Start Generating Html report tables
+2024-09-29 10:46:39.480 +02:00 [INF] Loading Ecore model from C:\Users\sgerene\AppData\Local\Temp\fiddujhg.ohc
+2024-09-29 10:46:39.480 +02:00 [INF] Creating resource for uri: "file:///C:/Users/sgerene/AppData/Local/Temp/fiddujhg.ohc"
+2024-09-29 10:46:39.510 +02:00 [INF] Package: 'ecore' with prefix ecore and uri http://www.eclipse.org/emf/2002/Ecore loaded in 21 [ms]
+2024-09-29 10:46:39.560 +02:00 [INF] Generated HTML report in 81 [ms]
+2024-09-29 10:46:49.212 +02:00 [INF] Start Generating Html report tables
+2024-09-29 10:46:49.212 +02:00 [INF] Loading Ecore model from C:\Users\sgerene\AppData\Local\Temp\fiddujhg.ohc
+2024-09-29 10:46:49.212 +02:00 [INF] Creating resource for uri: "file:///C:/Users/sgerene/AppData/Local/Temp/fiddujhg.ohc"
+2024-09-29 10:46:49.218 +02:00 [INF] Package: 'ecore' with prefix ecore and uri http://www.eclipse.org/emf/2002/Ecore loaded in 4 [ms]
+2024-09-29 10:46:49.222 +02:00 [INF] Generated HTML report in 9 [ms]
+2024-09-29 10:58:09.405 +02:00 [INF] file with name ecore.ecore received
+2024-09-29 10:58:09.417 +02:00 [INF] file with name ecore.ecore stored with key R5IhCrEYNUmHwh34nFUu9Q and accessible until "2024-09-29T11:13:09.4163444+02:00"
+2024-09-29 10:58:09.431 +02:00 [INF] 100 of file ecore file upload: 31884 of 31884 bytes
+2024-09-29 10:58:09.431 +02:00 [INF] file ecore.ecore with size 31649 uploaded
+2024-09-29 10:58:10.921 +02:00 [INF] Start Generating Html report tables
+2024-09-29 10:58:10.921 +02:00 [INF] Loading Ecore model from C:\Users\sgerene\AppData\Local\Temp\ty1ts3v2.vdj
+2024-09-29 10:58:10.922 +02:00 [INF] Creating resource for uri: "file:///C:/Users/sgerene/AppData/Local/Temp/ty1ts3v2.vdj"
+2024-09-29 10:58:10.942 +02:00 [INF] Package: 'ecore' with prefix ecore and uri http://www.eclipse.org/emf/2002/Ecore loaded in 15 [ms]
+2024-09-29 10:58:10.986 +02:00 [INF] Generated HTML report in 65 [ms]
+2024-09-29 10:58:26.954 +02:00 [INF] file with name ecore.ecore received
+2024-09-29 10:58:26.956 +02:00 [INF] file with name ecore.ecore stored with key W6MeUwBxf0Ohxk7O77069A and accessible until "2024-09-29T11:13:26.9563996+02:00"
+2024-09-29 10:58:26.959 +02:00 [INF] 100 of file ecore file upload: 31886 of 31886 bytes
+2024-09-29 10:58:26.959 +02:00 [INF] file ecore.ecore with size 31649 uploaded
+2024-09-29 10:58:27.955 +02:00 [INF] Start Generating Html report tables
+2024-09-29 10:58:27.955 +02:00 [INF] Loading Ecore model from C:\Users\sgerene\AppData\Local\Temp\sbgqll4n.vh5
+2024-09-29 10:58:27.955 +02:00 [INF] Creating resource for uri: "file:///C:/Users/sgerene/AppData/Local/Temp/sbgqll4n.vh5"
+2024-09-29 10:58:27.958 +02:00 [INF] Package: 'ecore' with prefix ecore and uri http://www.eclipse.org/emf/2002/Ecore loaded in 2 [ms]
+2024-09-29 10:58:27.962 +02:00 [INF] Generated HTML report in 7 [ms]
+2024-09-29 10:58:52.465 +02:00 [INF] file with name ecore.ecore received
+2024-09-29 10:58:52.476 +02:00 [INF] file with name ecore.ecore stored with key WUrlpAg0XkOMNm-NM16C3g and accessible until "2024-09-29T11:13:52.4756640+02:00"
+2024-09-29 10:58:52.489 +02:00 [INF] 100 of file ecore file upload: 31884 of 31884 bytes
+2024-09-29 10:58:52.489 +02:00 [INF] file ecore.ecore with size 31649 uploaded
+2024-09-29 10:58:54.436 +02:00 [INF] Start Generating Html report tables
+2024-09-29 10:58:54.437 +02:00 [INF] Loading Ecore model from C:\Users\sgerene\AppData\Local\Temp\2yprnthg.re2
+2024-09-29 10:58:54.438 +02:00 [INF] Creating resource for uri: "file:///C:/Users/sgerene/AppData/Local/Temp/2yprnthg.re2"
+2024-09-29 10:58:54.461 +02:00 [INF] Package: 'ecore' with prefix ecore and uri http://www.eclipse.org/emf/2002/Ecore loaded in 15 [ms]
+2024-09-29 10:58:54.504 +02:00 [INF] Generated HTML report in 68 [ms]
+2024-09-29 10:59:18.562 +02:00 [INF] file with name ecore.ecore received
+2024-09-29 10:59:18.574 +02:00 [INF] file with name ecore.ecore stored with key 4SFR4AndOEOtn3OEewBCNw and accessible until "2024-09-29T11:14:18.5732992+02:00"
+2024-09-29 10:59:18.586 +02:00 [INF] 100 of file ecore file upload: 31884 of 31884 bytes
+2024-09-29 10:59:18.586 +02:00 [INF] file ecore.ecore with size 31649 uploaded
+2024-09-29 10:59:19.418 +02:00 [INF] Start Generating Html report tables
+2024-09-29 10:59:19.418 +02:00 [INF] Loading Ecore model from C:\Users\sgerene\AppData\Local\Temp\csa1qsi0.vy4
+2024-09-29 10:59:19.418 +02:00 [INF] Creating resource for uri: "file:///C:/Users/sgerene/AppData/Local/Temp/csa1qsi0.vy4"
+2024-09-29 10:59:19.439 +02:00 [INF] Package: 'ecore' with prefix ecore and uri http://www.eclipse.org/emf/2002/Ecore loaded in 14 [ms]
+2024-09-29 10:59:19.490 +02:00 [INF] Generated HTML report in 72 [ms]
+2024-09-29 10:59:53.158 +02:00 [INF] file with name ecore.ecore received
+2024-09-29 10:59:53.170 +02:00 [INF] file with name ecore.ecore stored with key Yk-U6_f_rk2zJsKmErE8sw and accessible until "2024-09-29T11:14:53.1695361+02:00"
+2024-09-29 10:59:53.183 +02:00 [INF] 100 of file ecore file upload: 31886 of 31886 bytes
+2024-09-29 10:59:53.183 +02:00 [INF] file ecore.ecore with size 31649 uploaded
+2024-09-29 10:59:54.123 +02:00 [INF] Start Generating Html report tables
+2024-09-29 10:59:54.123 +02:00 [INF] Loading Ecore model from C:\Users\sgerene\AppData\Local\Temp\owmrxgwd.3wl
+2024-09-29 10:59:54.124 +02:00 [INF] Creating resource for uri: "file:///C:/Users/sgerene/AppData/Local/Temp/owmrxgwd.3wl"
+2024-09-29 10:59:54.144 +02:00 [INF] Package: 'ecore' with prefix ecore and uri http://www.eclipse.org/emf/2002/Ecore loaded in 14 [ms]
+2024-09-29 10:59:54.195 +02:00 [INF] Generated HTML report in 72 [ms]
+2024-09-29 10:59:54.273 +02:00 [INF] Start Generating Html report tables
+2024-09-29 10:59:54.273 +02:00 [INF] Loading Ecore model from C:\Users\sgerene\AppData\Local\Temp\owmrxgwd.3wl
+2024-09-29 10:59:54.273 +02:00 [INF] Creating resource for uri: "file:///C:/Users/sgerene/AppData/Local/Temp/owmrxgwd.3wl"
+2024-09-29 10:59:54.280 +02:00 [INF] Package: 'ecore' with prefix ecore and uri http://www.eclipse.org/emf/2002/Ecore loaded in 7 [ms]
+2024-09-29 10:59:54.287 +02:00 [INF] Generated HTML report in 13 [ms]
+2024-09-29 11:00:11.390 +02:00 [WRN] Unhandled exception rendering component: Value cannot be null. (Parameter 'key')
+System.ArgumentNullException: Value cannot be null. (Parameter 'key')
+   at System.ThrowHelper.Throw(String paramName)
+   at Microsoft.Extensions.Caching.Memory.MemoryCache.TryGetValue(Object key, Object& result)
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.TryGetValue[TItem](IMemoryCache cache, Object key, TItem& value)
+   at EcoreNettoWebsite.Services.FileTrackingService.GetFile(String key) in C:\Users\sgerene\Documents\15-Source-Code\ecorenetto\ecorenetto-blazor-website\EcoreNettoWebsite\Services\FileTrackingService.cs:line 131
+   at EcoreNettoWebsite.Components.Pages.HtmlReport.OnParametersSetAsync() in C:\Users\sgerene\Documents\15-Source-Code\ecorenetto\ecorenetto-blazor-website\EcoreNettoWebsite\Components\Pages\HtmlReport.razor:line 69
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+2024-09-29 11:00:11.696 +02:00 [ERR] Unhandled exception in circuit 'V1NcbNJ2WFiF_twGyAVnesAT2zncnxMrXirpQ14MYjs'.
+System.ArgumentNullException: Value cannot be null. (Parameter 'key')
+   at System.ThrowHelper.Throw(String paramName)
+   at Microsoft.Extensions.Caching.Memory.MemoryCache.TryGetValue(Object key, Object& result)
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.TryGetValue[TItem](IMemoryCache cache, Object key, TItem& value)
+   at EcoreNettoWebsite.Services.FileTrackingService.GetFile(String key) in C:\Users\sgerene\Documents\15-Source-Code\ecorenetto\ecorenetto-blazor-website\EcoreNettoWebsite\Services\FileTrackingService.cs:line 131
+   at EcoreNettoWebsite.Components.Pages.HtmlReport.OnParametersSetAsync() in C:\Users\sgerene\Documents\15-Source-Code\ecorenetto\ecorenetto-blazor-website\EcoreNettoWebsite\Components\Pages\HtmlReport.razor:line 69
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+2024-09-29 11:01:13.212 +02:00 [INF] file with name ecore.ecore received
+2024-09-29 11:01:13.225 +02:00 [INF] file with name ecore.ecore stored with key gA5C6wQCKUm1UiuBpBCjAA and accessible until "2024-09-29T11:16:13.2236694+02:00"
+2024-09-29 11:01:13.238 +02:00 [INF] 100 of file ecore file upload: 31882 of 31882 bytes
+2024-09-29 11:01:13.238 +02:00 [INF] file ecore.ecore with size 31649 uploaded
+2024-09-29 11:01:20.179 +02:00 [INF] Start Generating Html report tables
+2024-09-29 11:01:20.180 +02:00 [INF] Loading Ecore model from C:\Users\sgerene\AppData\Local\Temp\td2rmkzc.tlz
+2024-09-29 11:01:20.182 +02:00 [INF] Creating resource for uri: "file:///C:/Users/sgerene/AppData/Local/Temp/td2rmkzc.tlz"
+2024-09-29 11:01:20.212 +02:00 [INF] Package: 'ecore' with prefix ecore and uri http://www.eclipse.org/emf/2002/Ecore loaded in 16 [ms]
+2024-09-29 11:01:20.259 +02:00 [INF] Generated HTML report in 80 [ms]
+2024-09-29 11:01:22.103 +02:00 [INF] Start Generating Html report tables
+2024-09-29 11:01:22.103 +02:00 [INF] Loading Ecore model from C:\Users\sgerene\AppData\Local\Temp\td2rmkzc.tlz
+2024-09-29 11:01:22.103 +02:00 [INF] Creating resource for uri: "file:///C:/Users/sgerene/AppData/Local/Temp/td2rmkzc.tlz"
+2024-09-29 11:01:22.110 +02:00 [INF] Package: 'ecore' with prefix ecore and uri http://www.eclipse.org/emf/2002/Ecore loaded in 5 [ms]
+2024-09-29 11:01:22.113 +02:00 [INF] Generated HTML report in 9 [ms]
+2024-09-29 11:01:31.729 +02:00 [WRN] Unhandled exception rendering component: Value cannot be null. (Parameter 'key')
+System.ArgumentNullException: Value cannot be null. (Parameter 'key')
+   at System.ThrowHelper.Throw(String paramName)
+   at Microsoft.Extensions.Caching.Memory.MemoryCache.TryGetValue(Object key, Object& result)
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.TryGetValue[TItem](IMemoryCache cache, Object key, TItem& value)
+   at EcoreNettoWebsite.Services.FileTrackingService.GetFile(String key) in C:\Users\sgerene\Documents\15-Source-Code\ecorenetto\ecorenetto-blazor-website\EcoreNettoWebsite\Services\FileTrackingService.cs:line 131
+   at EcoreNettoWebsite.Components.Pages.HtmlReport.OnParametersSetAsync() in C:\Users\sgerene\Documents\15-Source-Code\ecorenetto\ecorenetto-blazor-website\EcoreNettoWebsite\Components\Pages\HtmlReport.razor:line 69
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+2024-09-29 11:01:31.737 +02:00 [ERR] Unhandled exception in circuit '2O0sqxEPFwcWKqctGpbRuA9sn-czxybRZLvr10dfKgM'.
+System.ArgumentNullException: Value cannot be null. (Parameter 'key')
+   at System.ThrowHelper.Throw(String paramName)
+   at Microsoft.Extensions.Caching.Memory.MemoryCache.TryGetValue(Object key, Object& result)
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.TryGetValue[TItem](IMemoryCache cache, Object key, TItem& value)
+   at EcoreNettoWebsite.Services.FileTrackingService.GetFile(String key) in C:\Users\sgerene\Documents\15-Source-Code\ecorenetto\ecorenetto-blazor-website\EcoreNettoWebsite\Services\FileTrackingService.cs:line 131
+   at EcoreNettoWebsite.Components.Pages.HtmlReport.OnParametersSetAsync() in C:\Users\sgerene\Documents\15-Source-Code\ecorenetto\ecorenetto-blazor-website\EcoreNettoWebsite\Components\Pages\HtmlReport.razor:line 69
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+2024-09-29 11:02:50.435 +02:00 [INF] file with name ecore.ecore received
+2024-09-29 11:02:50.446 +02:00 [INF] file with name ecore.ecore stored with key ejRQOfqWlUuv4vhH-7F7qQ and accessible until "2024-09-29T11:17:50.4448767+02:00"
+2024-09-29 11:02:50.460 +02:00 [INF] 100 of file ecore file upload: 31884 of 31884 bytes
+2024-09-29 11:02:50.460 +02:00 [INF] file ecore.ecore with size 31649 uploaded
+2024-09-29 11:03:03.755 +02:00 [INF] Start Generating Html report tables
+2024-09-29 11:03:03.756 +02:00 [INF] Loading Ecore model from C:\Users\sgerene\AppData\Local\Temp\4lxsk0ox.ilv
+2024-09-29 11:03:03.756 +02:00 [INF] Creating resource for uri: "file:///C:/Users/sgerene/AppData/Local/Temp/4lxsk0ox.ilv"
+2024-09-29 11:03:03.782 +02:00 [INF] Package: 'ecore' with prefix ecore and uri http://www.eclipse.org/emf/2002/Ecore loaded in 17 [ms]
+2024-09-29 11:03:03.829 +02:00 [INF] Generated HTML report in 73 [ms]
+2024-09-29 11:03:04.796 +02:00 [INF] Start Generating Html report tables
+2024-09-29 11:03:04.796 +02:00 [INF] Loading Ecore model from C:\Users\sgerene\AppData\Local\Temp\4lxsk0ox.ilv
+2024-09-29 11:03:04.796 +02:00 [INF] Creating resource for uri: "file:///C:/Users/sgerene/AppData/Local/Temp/4lxsk0ox.ilv"
+2024-09-29 11:03:04.801 +02:00 [INF] Package: 'ecore' with prefix ecore and uri http://www.eclipse.org/emf/2002/Ecore loaded in 4 [ms]
+2024-09-29 11:03:04.805 +02:00 [INF] Generated HTML report in 9 [ms]
+2024-09-29 11:03:24.500 +02:00 [WRN] Unhandled exception rendering component: Value cannot be null. (Parameter 'key')
+System.ArgumentNullException: Value cannot be null. (Parameter 'key')
+   at System.ThrowHelper.Throw(String paramName)
+   at Microsoft.Extensions.Caching.Memory.MemoryCache.TryGetValue(Object key, Object& result)
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.TryGetValue[TItem](IMemoryCache cache, Object key, TItem& value)
+   at EcoreNettoWebsite.Services.FileTrackingService.GetFile(String key) in C:\Users\sgerene\Documents\15-Source-Code\ecorenetto\ecorenetto-blazor-website\EcoreNettoWebsite\Services\FileTrackingService.cs:line 131
+   at EcoreNettoWebsite.Components.Pages.HtmlReport.OnParametersSetAsync() in C:\Users\sgerene\Documents\15-Source-Code\ecorenetto\ecorenetto-blazor-website\EcoreNettoWebsite\Components\Pages\HtmlReport.razor:line 66
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+2024-09-29 11:03:26.675 +02:00 [ERR] Unhandled exception in circuit 'aRs88BwNAQI9SIGu-MBmzrpUYT9KYdnBbOenLUcZu50'.
+System.ArgumentNullException: Value cannot be null. (Parameter 'key')
+   at System.ThrowHelper.Throw(String paramName)
+   at Microsoft.Extensions.Caching.Memory.MemoryCache.TryGetValue(Object key, Object& result)
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.TryGetValue[TItem](IMemoryCache cache, Object key, TItem& value)
+   at EcoreNettoWebsite.Services.FileTrackingService.GetFile(String key) in C:\Users\sgerene\Documents\15-Source-Code\ecorenetto\ecorenetto-blazor-website\EcoreNettoWebsite\Services\FileTrackingService.cs:line 131
+   at EcoreNettoWebsite.Components.Pages.HtmlReport.OnParametersSetAsync() in C:\Users\sgerene\Documents\15-Source-Code\ecorenetto\ecorenetto-blazor-website\EcoreNettoWebsite\Components\Pages\HtmlReport.razor:line 66
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+2024-09-29 11:04:49.169 +02:00 [INF] file with name ecore.ecore received
+2024-09-29 11:04:49.181 +02:00 [INF] file with name ecore.ecore stored with key n7BEkqQlOEa22TMeK263FQ and accessible until "2024-09-29T11:19:49.1798342+02:00"
+2024-09-29 11:04:49.193 +02:00 [INF] 100 of file ecore file upload: 31886 of 31886 bytes
+2024-09-29 11:04:49.193 +02:00 [INF] file ecore.ecore with size 31649 uploaded
+2024-09-29 11:05:03.526 +02:00 [INF] Start Generating Html report tables
+2024-09-29 11:05:03.527 +02:00 [INF] Loading Ecore model from C:\Users\sgerene\AppData\Local\Temp\mugag4pp.jwa
+2024-09-29 11:05:03.528 +02:00 [INF] Creating resource for uri: "file:///C:/Users/sgerene/AppData/Local/Temp/mugag4pp.jwa"
+2024-09-29 11:05:03.557 +02:00 [INF] Package: 'ecore' with prefix ecore and uri http://www.eclipse.org/emf/2002/Ecore loaded in 14 [ms]
+2024-09-29 11:05:03.605 +02:00 [INF] Generated HTML report in 79 [ms]
+2024-09-29 11:05:05.364 +02:00 [INF] Start Generating Html report tables
+2024-09-29 11:05:05.364 +02:00 [INF] Loading Ecore model from C:\Users\sgerene\AppData\Local\Temp\mugag4pp.jwa
+2024-09-29 11:05:05.364 +02:00 [INF] Creating resource for uri: "file:///C:/Users/sgerene/AppData/Local/Temp/mugag4pp.jwa"
+2024-09-29 11:05:05.367 +02:00 [INF] Package: 'ecore' with prefix ecore and uri http://www.eclipse.org/emf/2002/Ecore loaded in 2 [ms]
+2024-09-29 11:05:05.370 +02:00 [INF] Generated HTML report in 6 [ms]
+2024-09-29 11:05:14.537 +02:00 [WRN] Unhandled exception rendering component: Value cannot be null. (Parameter 'key')
+System.ArgumentNullException: Value cannot be null. (Parameter 'key')
+   at System.ThrowHelper.Throw(String paramName)
+   at Microsoft.Extensions.Caching.Memory.MemoryCache.TryGetValue(Object key, Object& result)
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.TryGetValue[TItem](IMemoryCache cache, Object key, TItem& value)
+   at EcoreNettoWebsite.Services.FileTrackingService.GetFile(String key) in C:\Users\sgerene\Documents\15-Source-Code\ecorenetto\ecorenetto-blazor-website\EcoreNettoWebsite\Services\FileTrackingService.cs:line 131
+   at EcoreNettoWebsite.Components.Pages.HtmlReport.OnParametersSetAsync() in C:\Users\sgerene\Documents\15-Source-Code\ecorenetto\ecorenetto-blazor-website\EcoreNettoWebsite\Components\Pages\HtmlReport.razor:line 66
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+2024-09-29 11:05:14.544 +02:00 [ERR] Unhandled exception in circuit 'lM_7cUA_cEWgYp7eMQWxA9YuVc4U8wzitBrcn1u-tS4'.
+System.ArgumentNullException: Value cannot be null. (Parameter 'key')
+   at System.ThrowHelper.Throw(String paramName)
+   at Microsoft.Extensions.Caching.Memory.MemoryCache.TryGetValue(Object key, Object& result)
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.TryGetValue[TItem](IMemoryCache cache, Object key, TItem& value)
+   at EcoreNettoWebsite.Services.FileTrackingService.GetFile(String key) in C:\Users\sgerene\Documents\15-Source-Code\ecorenetto\ecorenetto-blazor-website\EcoreNettoWebsite\Services\FileTrackingService.cs:line 131
+   at EcoreNettoWebsite.Components.Pages.HtmlReport.OnParametersSetAsync() in C:\Users\sgerene\Documents\15-Source-Code\ecorenetto\ecorenetto-blazor-website\EcoreNettoWebsite\Components\Pages\HtmlReport.razor:line 66
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+2024-09-29 11:09:00.056 +02:00 [INF] file with name ecore.ecore received
+2024-09-29 11:09:00.069 +02:00 [INF] file with name ecore.ecore stored with key -WIu2-3GW0e5rYBkmgUalg and accessible until "2024-09-29T11:24:00.0681063+02:00"
+2024-09-29 11:09:00.082 +02:00 [INF] 100 of file ecore file upload: 31882 of 31882 bytes
+2024-09-29 11:09:00.082 +02:00 [INF] file ecore.ecore with size 31649 uploaded
+2024-09-29 11:09:01.537 +02:00 [INF] Start Generating Html report tables
+2024-09-29 11:09:01.538 +02:00 [INF] Loading Ecore model from C:\Users\sgerene\AppData\Local\Temp\zsnyveyi.htu
+2024-09-29 11:09:01.538 +02:00 [INF] Creating resource for uri: "file:///C:/Users/sgerene/AppData/Local/Temp/zsnyveyi.htu"
+2024-09-29 11:09:01.558 +02:00 [INF] Package: 'ecore' with prefix ecore and uri http://www.eclipse.org/emf/2002/Ecore loaded in 14 [ms]
+2024-09-29 11:09:01.617 +02:00 [INF] Generated HTML report in 79 [ms]
+2024-09-29 11:09:01.693 +02:00 [INF] Start Generating Html report tables
+2024-09-29 11:09:01.693 +02:00 [INF] Loading Ecore model from C:\Users\sgerene\AppData\Local\Temp\zsnyveyi.htu
+2024-09-29 11:09:01.693 +02:00 [INF] Creating resource for uri: "file:///C:/Users/sgerene/AppData/Local/Temp/zsnyveyi.htu"
+2024-09-29 11:09:01.699 +02:00 [INF] Package: 'ecore' with prefix ecore and uri http://www.eclipse.org/emf/2002/Ecore loaded in 5 [ms]
+2024-09-29 11:09:01.704 +02:00 [INF] Generated HTML report in 10 [ms]
+2024-09-29 11:09:15.133 +02:00 [WRN] Unhandled exception rendering component: Value cannot be null. (Parameter 'key')
+System.ArgumentNullException: Value cannot be null. (Parameter 'key')
+   at System.ThrowHelper.Throw(String paramName)
+   at Microsoft.Extensions.Caching.Memory.MemoryCache.TryGetValue(Object key, Object& result)
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.TryGetValue[TItem](IMemoryCache cache, Object key, TItem& value)
+   at EcoreNettoWebsite.Services.FileTrackingService.GetFile(String key) in C:\Users\sgerene\Documents\15-Source-Code\ecorenetto\ecorenetto-blazor-website\EcoreNettoWebsite\Services\FileTrackingService.cs:line 131
+   at EcoreNettoWebsite.Components.Pages.HtmlReport.OnParametersSetAsync() in C:\Users\sgerene\Documents\15-Source-Code\ecorenetto\ecorenetto-blazor-website\EcoreNettoWebsite\Components\Pages\HtmlReport.razor:line 63
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+2024-09-29 11:09:15.139 +02:00 [ERR] Unhandled exception in circuit 'SEmYhYm4cTxjLnXzIJ9s-9NFpWkSvASs84C5dB7DFbM'.
+System.ArgumentNullException: Value cannot be null. (Parameter 'key')
+   at System.ThrowHelper.Throw(String paramName)
+   at Microsoft.Extensions.Caching.Memory.MemoryCache.TryGetValue(Object key, Object& result)
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.TryGetValue[TItem](IMemoryCache cache, Object key, TItem& value)
+   at EcoreNettoWebsite.Services.FileTrackingService.GetFile(String key) in C:\Users\sgerene\Documents\15-Source-Code\ecorenetto\ecorenetto-blazor-website\EcoreNettoWebsite\Services\FileTrackingService.cs:line 131
+   at EcoreNettoWebsite.Components.Pages.HtmlReport.OnParametersSetAsync() in C:\Users\sgerene\Documents\15-Source-Code\ecorenetto\ecorenetto-blazor-website\EcoreNettoWebsite\Components\Pages\HtmlReport.razor:line 63
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+2024-09-29 11:11:17.759 +02:00 [INF] file with name ecore.ecore received
+2024-09-29 11:11:17.770 +02:00 [INF] file with name ecore.ecore stored with key f6TqvFEpZU6WWYc5IZrSAw and accessible until "2024-09-29T11:26:17.7694001+02:00"
+2024-09-29 11:11:17.784 +02:00 [INF] 100 of file ecore file upload: 31886 of 31886 bytes
+2024-09-29 11:11:17.784 +02:00 [INF] file ecore.ecore with size 31649 uploaded
+2024-09-29 11:11:20.011 +02:00 [INF] Start Generating Html report tables
+2024-09-29 11:11:20.011 +02:00 [INF] Loading Ecore model from C:\Users\sgerene\AppData\Local\Temp\bhspxhe0.1ov
+2024-09-29 11:11:20.012 +02:00 [INF] Creating resource for uri: "file:///C:/Users/sgerene/AppData/Local/Temp/bhspxhe0.1ov"
+2024-09-29 11:11:20.032 +02:00 [INF] Package: 'ecore' with prefix ecore and uri http://www.eclipse.org/emf/2002/Ecore loaded in 14 [ms]
+2024-09-29 11:11:20.078 +02:00 [INF] Generated HTML report in 67 [ms]
+2024-09-29 11:11:20.144 +02:00 [INF] Start Generating Html report tables
+2024-09-29 11:11:20.144 +02:00 [INF] Loading Ecore model from C:\Users\sgerene\AppData\Local\Temp\bhspxhe0.1ov
+2024-09-29 11:11:20.144 +02:00 [INF] Creating resource for uri: "file:///C:/Users/sgerene/AppData/Local/Temp/bhspxhe0.1ov"
+2024-09-29 11:11:20.148 +02:00 [INF] Package: 'ecore' with prefix ecore and uri http://www.eclipse.org/emf/2002/Ecore loaded in 3 [ms]
+2024-09-29 11:11:20.151 +02:00 [INF] Generated HTML report in 7 [ms]
+2024-09-29 11:11:49.746 +02:00 [WRN] Unhandled exception rendering component: Value cannot be null. (Parameter 'key')
+System.ArgumentNullException: Value cannot be null. (Parameter 'key')
+   at System.ThrowHelper.Throw(String paramName)
+   at Microsoft.Extensions.Caching.Memory.MemoryCache.TryGetValue(Object key, Object& result)
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.TryGetValue[TItem](IMemoryCache cache, Object key, TItem& value)
+   at EcoreNettoWebsite.Services.FileTrackingService.GetFile(String key) in C:\Users\sgerene\Documents\15-Source-Code\ecorenetto\ecorenetto-blazor-website\EcoreNettoWebsite\Services\FileTrackingService.cs:line 131
+   at EcoreNettoWebsite.Components.Pages.HtmlReport.OnParametersSetAsync() in C:\Users\sgerene\Documents\15-Source-Code\ecorenetto\ecorenetto-blazor-website\EcoreNettoWebsite\Components\Pages\HtmlReport.razor:line 63
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+2024-09-29 11:11:49.752 +02:00 [ERR] Unhandled exception in circuit 'bEJuStRe-ejSyKt2lTIW7DL2mCyh_-xOCIQK_aYX9o4'.
+System.ArgumentNullException: Value cannot be null. (Parameter 'key')
+   at System.ThrowHelper.Throw(String paramName)
+   at Microsoft.Extensions.Caching.Memory.MemoryCache.TryGetValue(Object key, Object& result)
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.TryGetValue[TItem](IMemoryCache cache, Object key, TItem& value)
+   at EcoreNettoWebsite.Services.FileTrackingService.GetFile(String key) in C:\Users\sgerene\Documents\15-Source-Code\ecorenetto\ecorenetto-blazor-website\EcoreNettoWebsite\Services\FileTrackingService.cs:line 131
+   at EcoreNettoWebsite.Components.Pages.HtmlReport.OnParametersSetAsync() in C:\Users\sgerene\Documents\15-Source-Code\ecorenetto\ecorenetto-blazor-website\EcoreNettoWebsite\Components\Pages\HtmlReport.razor:line 63
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)

@@ -1,5 +1,5 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
-//  <copyright file="FileUpload.cs" company="Starion Group S.A.">
+//  <copyright file="SelectedFileService.cs" company="Starion Group S.A.">
 // 
 //     Copyright (c) 2024 Starion Group S.A.
 // 
@@ -17,34 +17,17 @@
 //  </copyright>
 //  --------------------------------------------------------------------------------------------------------------------
 
-using DocumentFormat.OpenXml.Office.CoverPageProps;
-
-namespace EcoreNettoWebsite.Model
+namespace EcoreNetto.Website.Services
 {
     /// <summary>
-    /// Represents the DTO to capture information regarding an uploaded file
+    /// The purpose of the <see cref="SelectedFileService"/> is to keep track
+    /// of the reqif file that is selected when navigating from page to page
     /// </summary>
-    public class FileUpload
+    public class SelectedFileService : ISelectedFileService
     {
         /// <summary>
-        /// Gets or sets the Key of an uploaded file
+        /// The key or unique identifier of the file
         /// </summary>
         public string Key { get; set; }
-
-        /// <summary>
-        /// Gets or sets the filename as provided by the user
-        /// </summary>
-        public string Name { get; set; }
-
-        /// <summary>
-        /// Gets or sets the temporary filename as it is stored on the server
-        /// </summary>
-        public string TemporaryFileName { get; set; }
-
-        /// <summary>
-        /// Gets or sets the <see cref="DateTime"/> on which the file is expired and removed from
-        /// the server
-        /// </summary>
-        public DateTime ExpirationDateTime { get; set; }
     }
 }

@@ -17,13 +17,13 @@
 //  </copyright>
 //  --------------------------------------------------------------------------------------------------------------------
 
-namespace EcoreNettoWebsite.Modules
+namespace EcoreNetto.Website.Modules
 {
     using System.Text.Json;
 
     using Carter;
 
-    using EcoreNettoWebsite.Services;
+    using EcoreNetto.Website.Services;
 
     using Microsoft.Extensions.Logging;
 

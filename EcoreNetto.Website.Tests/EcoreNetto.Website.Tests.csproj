@@ -32,7 +32,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\EcoreNettoWebsite\EcoreNettoWebsite.csproj" />
+      <ProjectReference Include="..\EcoreNetto.Website\EcoreNetto.Website.csproj" />
     </ItemGroup>
 
     <ItemGroup>

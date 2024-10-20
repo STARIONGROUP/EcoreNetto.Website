@@ -19,8 +19,8 @@
 
 using Carter;
 using ECoreNetto.Reporting.Generators;
-using EcoreNettoWebsite.Components;
-using EcoreNettoWebsite.Services;
+using EcoreNetto.Website.Components;
+using EcoreNetto.Website.Services;
 using Radzen;
 using Serilog;
 
