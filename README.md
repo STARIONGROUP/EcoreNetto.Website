@@ -4,6 +4,38 @@
 
 This repository contains the source code for the [ecorenetto](https://ecorenetto.org) website. This is a server-side Blazor application using [Radzen](https://blazor.radzen.com)
 
+## Build and Deployment
+
+Create Docker Container:
+
+```
+DOCKER_BUILDKIT=1 docker build -f Dockerfile -t stariongroup/ecorenetto-website:latest -t stariongroup/ecorenetto-website:x.y.x .
+```
+
+Run locally:
+
+```
+docker run -p 5000:5000 --name ecorenetto-website stariongroup/ecorenetto-website:latest
+```
+
+Use Docker Compose:
+
+```
+sudo docker-compose -f ecorenetto-docker-compose.yml up -d
+```
+
+with following docker file
+
+```
+version: "3.8"
+
+services:
+  ecorenetto-website:
+    image: index.docker.io/stariongroup/ecorenetto-website:latest
+    ports:
+      - 80:80
+```
+
 ## Code Quality
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=STARIONGROUP_EcoreNetto.Website&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=STARIONGROUP_EcoreNetto)
