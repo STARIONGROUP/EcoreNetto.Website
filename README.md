@@ -27,8 +27,6 @@ sudo docker-compose -f ecorenetto-docker-compose.yml up -d
 with following docker file
 
 ```
-version: "3.8"
-
 services:
   ecorenetto-website:
     image: index.docker.io/stariongroup/ecorenetto-website:latest
