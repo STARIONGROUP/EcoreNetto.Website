@@ -2,10 +2,10 @@
 
     <PropertyGroup>
         <TargetFramework>net9.0</TargetFramework>
-        <Version>0.1.0</Version>
+        <Version>0.2.0</Version>
         <Company>Starion Group S.A.</Company>
         <Title>EcoreNettoWebsite</Title>
-        <Copyright>Copyright 2024 © Starion Group S.A.</Copyright>
+        <Copyright>Copyright 2025 © Starion Group S.A.</Copyright>
         <Authors>Sam Gerené</Authors>
         <RepositoryType>Git</RepositoryType>
         <RepositoryUrl>https://github.com/STARIONGROUP/EcoreNettoWebsite.git</RepositoryUrl>
