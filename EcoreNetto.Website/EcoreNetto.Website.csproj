@@ -2,7 +2,7 @@
 
     <PropertyGroup>
         <TargetFramework>net9.0</TargetFramework>
-        <Version>0.2.0</Version>
+        <Version>0.3.0</Version>
         <Company>Starion Group S.A.</Company>
         <Title>EcoreNettoWebsite</Title>
         <Copyright>Copyright 2025 © Starion Group S.A.</Copyright>
@@ -18,7 +18,7 @@
     <ItemGroup>
         <PackageReference Include="Carter" Version="9.0.0" />
         <PackageReference Include="ECoreNetto.Reporting" Version="7.0.7" />
-        <PackageReference Include="Radzen.Blazor" Version="6.1.4" />
+        <PackageReference Include="Radzen.Blazor" Version="8.4.2" />
         <PackageReference Include="Serilog.AspNetCore" Version="10.0.0" />
         <PackageReference Include="Serilog.Enrichers.Environment" Version="3.0.1" />
         <PackageReference Include="Serilog.Enrichers.Process" Version="3.0.0" />
