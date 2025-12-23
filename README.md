@@ -4,19 +4,15 @@
 
 This repository contains the source code for the [ecorenetto](https://ecorenetto.org) website. This is a server-side Blazor application using [Radzen](https://blazor.radzen.com)
 
-## Build and Deployment
+## Build and Deploy using Docker
 
-Create Docker Container:
+The EcoreNetto website is built using docker and the result is a Docker container ready to be deployed (or pushed to Docker Hub). The Docker file is located in the root folder.
 
-```
-DOCKER_BUILDKIT=1 docker build -f Dockerfile -t stariongroup/ecorenetto-website:latest -t stariongroup/ecorenetto-website:x.y.x .
-```
+Two scripts are provided to create a docker image:
+  - `docker-build-local.sh`: creates an image that can be run locally with `docker run -p 5000:5000 --name ecorenetto-website stariongroup/ecorenetto-website:latest`
+  - `docker-build-attested.sh`: creates an image that is attested and includes an SBOM. This is immediately pushed to docker hub
 
-Run locally:
-
-```
-docker run -p 5000:5000 --name ecorenetto-website stariongroup/ecorenetto-website:latest
-```
+> both scripts need to be run from a linux command line (like the console in GitExtensions)
 
 Use Docker Compose:
 
