@@ -1,4 +1,4 @@
-﻿FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
+﻿FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
 
 WORKDIR /src
 COPY ["EcoreNetto.Website", "EcoreNetto.Website/"]
@@ -11,7 +11,7 @@ RUN dotnet build "EcoreNetto.Website.csproj" -c Release -o /app/build --no-resto
 FROM build AS publish
 RUN dotnet publish "EcoreNetto.Website.csproj" -c Release -o /app/publish
 
-FROM mcr.microsoft.com/dotnet/aspnet:9.0.2-alpine3.21 AS final
+FROM mcr.microsoft.com/dotnet/aspnet:10.0.3-alpine3.22 AS final
 WORKDIR /app
 RUN mkdir /app/logs
 COPY --from=publish /app/publish .
