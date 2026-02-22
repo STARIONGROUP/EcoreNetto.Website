@@ -72,3 +72,6 @@ packages/
 /EcoreNettoWebSite/logs/*
 
 /EcoreNetto.Website/logs/*
+
+# Rider folder
+.idea
