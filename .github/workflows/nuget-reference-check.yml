@@ -26,6 +26,19 @@ jobs:
     - name: Build
       run: dotnet build EcoreNetto.Website.sln --no-restore /p:ContinuousIntegrationBuild=true
 
+    - name: Check for outdated packages
+      id: outdated
+      run: |
+        set -e
+        dotnet list EcoreNetto.Website.sln package --outdated --include-transitive > outdated.log
+        if [ -s outdated.log ]; then
+          echo "Outdated packages found"
+          echo "outdated=true" >> $GITHUB_OUTPUT
+        else
+          echo "No outdated packages found"
+          echo "outdated=false" >> $GITHUB_OUTPUT
+        fi
+
     - name: Check for deprecated packages
       id: deprecated
       run: |
@@ -52,7 +65,7 @@ jobs:
           echo "vulnerable=false" >> $GITHUB_OUTPUT
         fi        
 
-    - name: Create GitHub Issue if issues found
+    - name: Create or update GitHub Issue if issues found
       if: steps.outdated.outputs.outdated == 'true' || steps.deprecated.outputs.deprecated == 'true' || steps.vulnerable.outputs.vulnerable == 'true'
       uses: actions/github-script@v6
       with:
@@ -89,11 +102,11 @@ jobs:
           const existingIssue = issues.find(issue => issue.title === issueTitle);
 
           if (existingIssue) {
-            await github.rest.issues.createComment({
+            await github.rest.issues.update({
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: existingIssue.number,
-              body: `New check results:\n${issueBody}`,
+              body: issueBody,
             });
           } else {
             await github.rest.issues.create({
